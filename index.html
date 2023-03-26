@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Boostrap equal height columns and flex for alignment of buttons</title>
+<link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+
+<style>
+	.mb-30{
+		margin-bottom: 30px;
+	}
+
+	.bg-blue{
+		background-color: #2d77b8;
+		color: #ffffff;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		
+		height: 100%;
+		padding: 30px;
+	}
+
+	h1{
+		color: #2d77b8;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	button{
+		background-color: #ffffff;
+		color: #2d77b8;
+		border: none;
+		font: inherit;
+		cursor: pointer;
+		outline: inherit;
+		padding: 5px 10px;
+	}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Boostrap equal height columns and flex for alignment of buttons</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6 mb-30">
+				<div class="bg-blue">
+					<div class="text">
+						<h2>Title col one</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="button">
+						<button>Button</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mb-30">
+				<div class="bg-blue">
+					<div class="text">
+						<h2>Title col two</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </p>
+					</div>
+					<div class="button">
+						<button>Button</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
